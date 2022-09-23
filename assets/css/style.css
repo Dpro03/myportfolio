@@ -10,8 +10,8 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: #100b9a;
+  color: rgba(133, 187, 32, 0.815);
 }
 
 /* 
@@ -96,6 +96,30 @@ We are making the product card not growable, not shrinkable, and with an initial
   width: 100%;
 }
 
+.card-big {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 600px;
+}
+
+.card-big header {
+  padding: 20px;
+}
+
+.card-big p{
+  text-align: center;
+}
+
+.card-big a {
+  text-align: center;
+}
+
+.card-big img {
+  width: 60%;
+  height: 100%;
+}
 /* 
 What does the flex-direction property define?
 It defines in which direction the container wants to stack the flex items
