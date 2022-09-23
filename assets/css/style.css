@@ -10,8 +10,8 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #100b9a;
-  color: rgba(133, 187, 32, 0.815);
+  background: #7b4029;
+  color: rgba(229, 194, 194, 0.815);
 }
 
 /* 
@@ -20,11 +20,11 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: #bceba9;
 }
 
 nav a {
-  color: #13293d;
+  color: #82ca15;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -41,7 +41,7 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color: #926567;
   padding: 80px;
   text-align: center;
 }
@@ -49,7 +49,7 @@ aside {
 footer {
   padding: 20px;
   text-align: center;
-  background: #13293d;
+  background: #901f92;
   color: #fff;
 }
 
@@ -108,7 +108,7 @@ We are making the product card not growable, not shrinkable, and with an initial
   padding: 20px;
 }
 
-.card-big p{
+.card-big p {
   text-align: center;
 }
 
@@ -120,6 +120,7 @@ We are making the product card not growable, not shrinkable, and with an initial
   width: 60%;
   height: 100%;
 }
+
 /* 
 What does the flex-direction property define?
 It defines in which direction the container wants to stack the flex items
