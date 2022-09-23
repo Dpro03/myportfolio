@@ -57,7 +57,7 @@ footer {
 What does the justify-content property do?
 It is used to align the flex items; in our case, the product cards 
 */
-.products {
+projects {
   flex: 4;
   background-color: #fff;
   padding: 20px;
@@ -88,6 +88,10 @@ We are making the product card not growable, not shrinkable, and with an initial
   text-align: center;
 }
 
+.card a {
+  text-align: center;
+}
+
 .card img {
   width: 100%;
 }
@@ -99,6 +103,7 @@ What is it doing here?
 We are telling the main body and navbar to stack vertically in a column
 */
 @media screen and (max-width: 768px) {
+
   main,
   nav {
     flex-direction: column;
