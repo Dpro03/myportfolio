@@ -12,6 +12,9 @@ header {
   text-align: center;
   background: #7b4029;
   color: rgba(229, 194, 194, 0.815);
+  flex-wrap: wrap;
+  align-items: center;
+
 }
 
 /* 
@@ -93,7 +96,7 @@ We are making the product card not growable, not shrinkable, and with an initial
 }
 
 .card img {
-  width: 100%;
+  width: 30%;
 }
 
 .card-big {
