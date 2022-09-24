@@ -10,10 +10,11 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #7b4029;
-  color: rgba(229, 194, 194, 0.815);
+  background: #000000;
+  color: rgba(219, 38, 38, 0.815);
   flex-wrap: wrap;
   align-items: center;
+  
 }
 
 /* 
@@ -22,11 +23,11 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #bceba9;
+  background-color: #89969a;
 }
 
 nav a {
-  color: #82ca15;
+  color: #040404;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -43,7 +44,7 @@ main {
 
 aside {
   flex: 1;
-  background-color: #926567;
+  background-color: #770d13;
   padding: 80px;
   text-align: center;
 }
@@ -52,10 +53,17 @@ aside {
   border-radius: 80%;
 }
 
+a:hover {
+  color: rgb(229, 24, 24);
+  transition: 0.3s;
+}
+
+
+
 footer {
   padding: 20px;
   text-align: center;
-  background: #901f92;
+  background: #726963;
   color: #fff;
 }
 
@@ -65,7 +73,7 @@ It is used to align the flex items; in our case, the product cards
 */
 projects {
   flex: 4;
-  background-color: #fff;
+  background-color: rgb(71, 3, 3);
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -80,15 +88,18 @@ We are making the product card not growable, not shrinkable, and with an initial
 */
 .card {
   border-style: solid;
-  border-width: 1px;
+  border-width: 10px;
   border-radius: 10px;
-  padding: 40px;
+  background-color: slategray;
+  padding: 4px;
   flex: 0 0 400px;
+  height: ;250px
 }
 
 
 .card img {
   width: 100%;
+
   transition: 0.4s all ease-in-out;
 }
 
@@ -135,7 +146,7 @@ We are making the product card not growable, not shrinkable, and with an initial
 }
 
 .card-big img {
-  width: 60%;
+  width: 1%;
   height: 100%;
 }
 
