@@ -173,7 +173,7 @@ projects {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
 
   flex-shrink~content~
 }
