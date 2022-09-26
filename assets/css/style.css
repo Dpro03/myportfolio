@@ -5,9 +5,9 @@
 body {
   font-family: Arial;
   margin: 0;
-  height: 100vh;
-  width: 100%;
-  position: relative;
+
+
+
 }
 
 header {
@@ -15,8 +15,6 @@ header {
   text-align: center;
   background: #000000;
   color: rgba(227, 16, 16, 0.815);
-  flex-wrap: wrap;
-  align-items: center;
 
 }
 
@@ -48,15 +46,21 @@ main {
   flex-wrap: wrap;
 }
 
-aside {
-  flex: 1;
-  background-color: #770d13;
+.sidebar {
+
   padding: 80px;
   text-align: center;
+  size: 20%;
+  background-color: red;
 }
 
-.me {
+img.me {
+  Height: 250px;
+  width: 250px;
+  position: center;
+
   border-radius: 80%;
+
 }
 
 
@@ -82,22 +86,36 @@ projects {
 
 .box {
   border-style: solid;
-  border-width: 10px;
-  border-radius: 10px;
+  border-width: 1px;
+  border-radius: 5px;
   background-color: slategray;
-  padding: 4px;
-  display: grid;
+  padding: 10px;
+  flex: 0 0 800px;
   flex-wrap: wrap;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
 
 
+
+
 .box img {
-  height: 100%;
+
   width: 100%;
-  display: block;
-  align-content: space-around;
+
+
 
 
 }
@@ -105,18 +123,6 @@ projects {
 .box:hover {
   transform: scale(1.2);
   transition: transform .3s ease-in-out
-}
-
-.box {
-  float: left;
-  width: 50%;
-}
-
-
-.row:after {
-  content: "box";
-  display: table;
-  clear: both;
 }
 
 
@@ -167,14 +173,5 @@ projects {
 
 @media screen and (max-width: 768px) {
 
-  main,
-  nav {
-    flex-direction: column;
-  }
-  
- @media screen and (min-width: 600px) {
-
-
-    flex-shrink: :content;
-  
-  }
+  flex-shrink~content~
+}
